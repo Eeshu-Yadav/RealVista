@@ -64,4 +64,5 @@ isort-diff:
 
 isort:
 	docker compose exec api isort . --skip env --skip migrations
-	
+
+
